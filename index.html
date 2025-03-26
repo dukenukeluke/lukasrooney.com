@@ -3,58 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lukas Rooney - Previs Artist</title>
+    <title>Lukas Rooney - Animator</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+        /* Additional styles just for the homepage */
+        .home-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
             text-align: center;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+        
+        .home-main h1 {
+            font-size: 4rem;
+            margin-bottom: 3rem;
         }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color: #222;
+        
+        .home-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
         }
-        .video-container {
-            margin-bottom: 40px;
+        
+        .home-nav a {
+            font-size: 1.2rem;
+            padding: 0.8rem 1.5rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            transition: all 0.3s ease;
         }
-        .video-container iframe {
-            width: 100%;
-            height: 400px;
-            border: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+        .home-nav a:hover {
+            background: var(--accent-color);
+            color: var(--primary-color);
+            transform: translateY(-3px);
         }
-        .video-title {
-            font-size: 1.5rem;
-            margin: 10px 0;
-            color: #444;
+        
+        @media (max-width: 768px) {
+            .home-main h1 {
+                font-size: 2.5rem;
+            }
+            
+            .home-nav a {
+                font-size: 1rem;
+                padding: 0.6rem 1.2rem;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Lukas Rooney</h1>
-        <p>Previs Artist</p>
-
-        <div class="video-container">
-            <div class="video-title">Previs Showreel</div>
-            <div class="video-title">TEST</div>
-            <iframe src="https://www.youtube.com/embed/0KDpC9qzhRs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="video-container">
-            <div class="video-title">Lost Sheep - Short Film</div>
-            <iframe src="https://www.youtube.com/embed/52gD_Y8bJms" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="3d.html">3D</a>
+            <a href="previs.html">Previs</a>
+            <a href="animation.html">Animation</a>
+            <a href="shortfilm.html">Short Film</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Lost Sheep</h2>   
+        <section class="showreel">
+            <h3>Short Film</h3>   
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/52gD_Y8bJms" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+        <section class="blurb">
+            <p>A hand-crafted short film made entirely out of paper.</p>
+            <p>Written, directed and animated by Lukas Rooney.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Lukas Rooney</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
