@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lukas Rooney - Previs Artist</title>
+    <title>Lukas Rooney - Short Film</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,26 +11,27 @@
         <h1>Lukas Rooney</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="3d.html">3D</a>
-            <a href="previs.html" class="active">Previs</a>
-            <a href="animation.html">Animation</a>
-            <a href="shortfilm.html">Short Film</a>
-            <a href="contact.html">Contact</a>
+            <a href="3d">3D</a>
+            <a href="previs">Previs</a>
+            <a href="animation">Animation</a>
+            <a href="shortfilm" class="active">Short Film</a>
+            <a href="contact">Contact</a>
         </nav>
     </header>
     
     <main>
-        <h2>Previs Artist</h2>
+        <h2>Lost Sheep</h2>   
         
         <section class="showreel">
-            <h3>Showreel</h3>
+            <h3>Short Film</h3>   
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/0KDpC9qzhRs" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/52gD_Y8bJms" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
         
         <section class="blurb">
-            <p>Previsualization specialist with experience in blocking complex sequences for feature film productions. Focused on camera work, staging, and storytelling through previs.</p>
+            <p>A hand-crafted short film made entirely out of paper.</p>
+            <p>Written, directed and animated by Lukas Rooney.</p>
         </section>
     </main>
     

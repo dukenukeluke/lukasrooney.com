@@ -11,11 +11,11 @@
         <h1>Lukas Rooney</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="3d.html" class="active">3D</a>
-            <a href="previs.html">Previs</a>
-            <a href="animation.html">Animation</a>
-            <a href="shortfilm.html">Short Film</a>
-            <a href="contact.html">Contact</a>
+            <a href="3d" class="active">3D</a>
+            <a href="previs">Previs</a>
+            <a href="animation">Animation</a>
+            <a href="shortfilm">Short Film</a>
+            <a href="contact">Contact</a>
         </nav>
     </header>
     
