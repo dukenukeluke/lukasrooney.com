@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lukas Rooney - Animator</title>
+    <title>Lukas Rooney - Previs Artist</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,26 +11,26 @@
         <h1>Lukas Rooney</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="3d.html">3D</a>
-            <a href="previs.html">Previs</a>
-            <a href="animation.html" class="active">Animation</a>
-            <a href="shortfilm.html">Short Film</a>
-            <a href="contact.html">Contact</a>
+            <a href="3d">3D</a>
+            <a href="previs" class="active">Previs</a>
+            <a href="animation">Animation</a>
+            <a href="shortfilm">Short Film</a>
+            <a href="contact">Contact</a>
         </nav>
     </header>
     
     <main>
-        <h2>Animator</h2>
+        <h2>Previs Artist</h2>
         
         <section class="showreel">
             <h3>Showreel</h3>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/N6lWy8_8qdA" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/0KDpC9qzhRs" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
         
         <section class="blurb">
-            <p>Character animator specializing in expressive performances for feature films and commercials. Combining technical precision with artistic sensibility to bring characters to life.</p>
+            <p>Previsualization specialist with experience in blocking complex sequences for feature film productions. Focused on camera work, staging, and storytelling through previs.</p>
         </section>
     </main>
     
